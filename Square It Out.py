@@ -8,6 +8,8 @@ for i in range(lower,high+1):
 print("The number of square numbers between the ranges are",l)
 for i in l:
     if(i % 2 == 0):
-        print("The number is even.")
+        even.append(i)
     else:
-        print("The number is odd.")
+        odd.append(i)
+print("\nThe odd numbers are ", odd)
+print("\nThe even numbers are ", even)
